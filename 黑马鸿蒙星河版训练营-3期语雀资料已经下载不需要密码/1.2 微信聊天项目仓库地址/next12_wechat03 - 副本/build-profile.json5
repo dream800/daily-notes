@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "00000019154CE57E38E0C1D696B40FCC40169424AE259E9CB510D2846D8EE1FF22FC8AF202B94580B5",
+          "certpath": "C:/Users/Administrator/Desktop/profile/wechat03.cer",
+          "keyAlias": "wechat03",
+          "keyPassword": "00000019033761EEDEE55F85602C03DB4ACED6B53DF167B7C53F0AE01326570A3CA7334EE6714ED9CA",
+          "profile": "C:/Users/Administrator/Desktop/profile/wechat03Debug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:/Users/Administrator/Desktop/profile/wechat03.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.1.0(11)",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

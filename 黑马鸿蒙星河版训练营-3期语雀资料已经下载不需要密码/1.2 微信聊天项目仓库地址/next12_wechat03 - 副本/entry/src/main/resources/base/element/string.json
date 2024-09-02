@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "微信"
+    },
+    {
+      "name": "Microphone",
+      "value": "向用户发送语音消息"
+    },
+    {
+      "name": "location",
+      "value": "获取地理位置"
+    },
+    {
+      "name": "app_location",
+      "value": "获取精度位置"
+    }
+  ]
+}
