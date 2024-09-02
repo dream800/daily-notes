@@ -1,0 +1,53 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "0000001B27E5CDB3FBCE0001A4450676D72448CEE09B0B9290BDA7600BC70B3D9C4B1E4DAFC9886F0BE11F",
+          "certpath": "D:/work/地图证书/小时达.cer",
+          "keyAlias": "xsd",
+          "keyPassword": "0000001B4FFEA3B85C3E3E4B3DDD6851215285574741F02477F0EA848257361E984190269A6C07CC0A03F3",
+          "profile": "D:/work/地图证书/小时达03Debug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "D:/work/地图证书/xsd.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "basic",
+      "srcPath": "./common/basic",
+    }
+  ]
+}
